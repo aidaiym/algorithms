@@ -8,6 +8,9 @@ void main() {
   var ret = Solution().twoSum([2, 7, 11, 15], 9);
   var ret2 = Solution().twoSum([3, 2, 4], 6);
   var ret3 = Solution().twoSum([3, 3], 6);
+  print(ret);
+  print(ret2);
+  print(ret3);
 }
 
 class Solution {

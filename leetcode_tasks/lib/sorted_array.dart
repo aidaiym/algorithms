@@ -9,7 +9,7 @@ Do not allocate extra space for another array. You must do this by modifying the
 */
 
 void main() {
-  var ret = Solution().removeDuplicates([1, 1, 2]);
+  var ret = Solution().removeDuplicates([1, 1, 2, 4, 5]);
   print(ret);
 }
 
