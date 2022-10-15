@@ -29,9 +29,7 @@ class Solution {
 
   List<int> getConcatenation2(List<int> nums) => [...nums, ...nums];
   List<int> getConcatenation3(List<int> nums) {
-    return []
-      ..addAll(nums)
-      ..addAll(nums);
+    return [...nums, ...nums];
   }
 }
 // input = [1,3,4]
